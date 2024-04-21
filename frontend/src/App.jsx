@@ -1,41 +1,32 @@
-import Calendar from "react-awesome-calendar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import Home from "./pages/Home";
 
-const events = [
-  {
-    id: 1,
-    color: "#fd3153",
-    from: "2019-05-02T18:00:00+00:00",
-    to: "2019-05-05T19:00:00+00:00",
-    title: "This is an event",
-  },
-  {
-    id: 2,
-    color: "#1ccb9e",
-    from: "2019-05-01T13:00:00+00:00",
-    to: "2019-05-05T14:00:00+00:00",
-    title: "This is another event",
-  },
-  {
-    id: 3,
-    color: "#3694DF",
-    from: "2024-05-05T13:00:00+00:00",
-    to: "2024-05-05T20:00:00+00:00",
-    title: "Retraite Mpampianatra Distrika",
-  },
-  {
-    id: 4,
-    color: "#000",
-    from: "2024-02-14T07:00:00",
-    to: "2024-02-14T20:00:00+00:00",
-    title: "Recollection VDKT Ambohimanarina",
-  },
-];
+import Dashboard from "./pages/Dashboard";
+
+// IMPORTER LE MODULE AOS
+import "../node_modules/aos/dist/aos.css";
+import AOS from "aos";
+import Auth from "./pages/Auth";
+import Footer from "./partials/Footer";
+import Currency from "./pages/Currency";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div>
-      <Calendar events={events} />;
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/footer" element={<Footer />} />
+          <Route path="/login" element={<Auth />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/currency/:id" element={<Currency />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

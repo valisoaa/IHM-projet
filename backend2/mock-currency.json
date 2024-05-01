@@ -1,0 +1,158 @@
+{
+    "currencies": [
+        {
+            "devise": "US Dollar",
+            "nom": "Dollar",
+            "symbole": "$",
+            "code": "USD",
+            "territoire": "États-Unis"
+        },
+        {
+            "devise": "Euro",
+            "nom": "Euros",
+            "symbole": "€",
+            "code": "EUR",
+            "territoire": "Union Européenne"
+        },
+        {
+            "devise": "Dollar canadien",
+            "nom": "Dollar",
+            "symbole": "C$",
+            "code": "CAD",
+            "territoire": "Canada"
+        },
+        {
+            "devise": "Franc suisse",
+            "nom": "Franc",
+            "symbole": "fr",
+            "code": "CHF",
+            "territoire": "Suisse"
+        },
+        {
+            "devise": "Livre sterling",
+            "nom": "Livre",
+            "symbole": "£",
+            "code": "GBP",
+            "territoire": "Royaume-Uni"
+        },
+        {
+            "devise": "Yen japonais",
+            "nom": "Yen",
+            "symbole": "¥",
+            "code": "JPY",
+            "territoire": "Japon"
+        },
+        {
+            "devise": "Couronne danoise",
+            "nom": "Couronne",
+            "symbole": "kr",
+            "code": "DKK",
+            "territoire": "Danemark"
+        },
+        {
+            "devise": "Couronne norvégienne",
+            "nom": "Couronne",
+            "symbole": "kr",
+            "code": "NOK",
+            "territoire": "Norvège"
+        },
+        {
+            "devise": "Couronne suédoise",
+            "nom": "Krona",
+            "symbole": "kr",
+            "code": "SEK",
+            "territoire": "Suède"
+        },
+        {
+            "devise": "Franc Djibouti",
+            "nom": "Franc",
+            "symbole": "Fdj",
+            "code": "DJF",
+            "territoire": "Djibouti"
+        },
+        {
+            "devise": "Roupie mauricienne",
+            "nom": "Roupie",
+            "symbole": "Rs",
+            "code": "MUR",
+            "territoire": "Maurice"
+        },
+        {
+            "devise": "Rand Afrique du Sud",
+            "nom": "Aléatoire",
+            "symbole": "R",
+            "code": "ZAR",
+            "territoire": "Afrique du Sud" 
+        },
+        {
+            "devise": "Dollar Australien",
+            "nom": "Dollar",
+            "symbole": "A$",
+            "code": "AUD",
+            "territoire": "Australie"
+        },
+        {
+            "devise": "Dollar de Hong Kong",
+            "nom": "Dollar",
+            "symbole": "$",
+            "code": "HKD",
+            "territoire": "R.A.S chinoise de Hong Kong"
+        },
+        {
+            "devise": "Dollar de Singapour",
+            "nom": "DOllar",
+            "symbole": "$",
+            "code": "SGD",
+            "territoire": "Singapour"
+        },
+        {
+            "devise": "Dollar néo zélandais",
+            "nom": "Dollar",
+            "symbole": "$",
+            "code": "NZD",
+            "territoire": "Nouvelle-Zélande"
+        },
+        {
+            "devise": "Renminbi chinois",
+            "nom": "Yuan",
+            "symbole": "¥",
+            "code": "CNY",
+            "territoire": "Chine"
+        },
+        {
+            "devise": "Won coréen",
+            "nom": "Won",
+            "symbole": "₩",
+            "code": "KRW",
+            "territoire": "Corée du Sud"
+        },
+        {
+            "devise": "Won nord coréen",
+            "nom": "Won",
+            "symbole": "₩",
+            "code": "KPW",
+            "territoire": "Corée du Nord"
+        },
+        {
+            "devise": "Roupie indienne",
+            "nom": "Roupie",
+            "symbole": "₹",
+            "code": "INP",
+            "territoire": "Inde"
+        },
+        {
+            "devise": "Ariary malgache",
+            "nom": "Ariary",
+            "symbole": "Ar",
+            "code": "MGA",
+            "territoire": "Madagascar"
+        }
+        
+        
+        
+        
+        
+        
+    ]
+    			
+}
